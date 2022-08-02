@@ -154,7 +154,6 @@
     }
     .swiper__box {
         display: flex;
-        align-items: center;
     }
     .products__sub-box {
         text-align: left;
@@ -162,7 +161,16 @@
     }
     .swiper__img {
         display: block;
-        width: 45%;
+        width: 35%;
+        min-height: 49rem;
+        height: 49rem;
+        margin-left: 5rem;
+        border-radius: 50%;
+        background-color: var(--main-bg-color);
+        border: 10rem solid var(--main-bg-color);
+        -webkit-box-shadow:  0rem 0rem 0rem 5rem var(--fourth-brand-color),  inset 0rem 0rem 0rem 3rem var(--fourth-brand-color);
+        -moz-box-shadow: 0rem 0rem 0rem 5rem var(--fourth-brand-color),  inset 0rem 0rem 0rem 3rem var(--fourth-brand-color);
+        box-shadow: 0rem 0rem 0rem 5rem var(--fourth-brand-color),  inset 0rem 0rem 0rem 3rem var(--fourth-brand-color);
     }
     .swiper-button-next,
     .swiper-button-prev {
